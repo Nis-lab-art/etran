@@ -1,12 +1,12 @@
-import Main from "./components/Main";
+import Content from "./components/Content";
 import SideBar from "./components/SideBar";
 
 function App() {
   return (
     <div className="h-dvh w-dvw bg-background-2">
-      <div className="flex size-full min-w-content top-0 right-auto bottom-auto left-10 flex-col items-center">
+      <div className="flex size-full flex-col items-center">
         <SideBar />
-        <Main />
+        <Content />
       </div>
     </div>
   );

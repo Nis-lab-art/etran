@@ -10,13 +10,12 @@ const SideBar = () => {
     <aside
       className="
         fixed inset-y-0 left-0
-        w-[520px]
+        w-[570px]
         bg-background-1
-        flex
         px-[30px]
       "
     >
-      <div className="flex flex-col py-8 w-full">
+      <div className="flex flex-col items-start py-8">
         <div className="w-full max-w-[354px] space-y-12">
           <nav className="w-full flex justify-between items-start mb-12">
             <div className="flex items-center gap-5">

@@ -1,13 +1,19 @@
 const LargetButton = ({ topText, bottomText, icon }) => {
   return (
     <button
-      className="bg-accent-3 text-text-1 w-[133.33px] h-[120px] 
-    font-normal text-link flex flex-col items-center justify-center gap-2 px-2.5 py-5 hover:bg-accent-1 hover:text-1 cursor-pointer rounded-sm"
+      className="bg-accent-3 text-text-1 h-[120px]
+    font-normal text-link flex-1 flex-col items-center justify-center gap-2 px-2.5 py-5 hover:bg-accent-1 hover:text-1 cursor-pointer rounded-sm"
     >
-      <img src={icon} alt="icon" />
-      <div>
-        <span className="leading-[115%] text-center block">{topText}</span>
-        <span className="leading-[115%] text-center block">{bottomText}</span>
+      <div className="size-full flex flex-col justify-center items-center">
+        <div className="w-full flex flex-col items-center gap-3.5 px-2.5 py-5">
+          <img src={icon} alt="icon" className="w-[30px] h-[30px]" />
+        </div>
+
+        <div>
+          <p className="leading-[115%] text-center block">
+            {topText} <br aria-hidden="true" /> {bottomText}
+          </p>
+        </div>
       </div>
     </button>
   );

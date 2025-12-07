@@ -1,13 +1,14 @@
 import Content from "./components/Content";
-import SideBar from "./components/SideBar";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="h-dvh w-dvw bg-background-2">
-      <div className="flex size-full flex-col items-center">
-        <SideBar />
+    <div className="relative min-h-dvh w-dvw bg-background-2">
+      <Header />
+      {/* Right side scrollable content, shifted by sidebar width */}
+      <main className="ml-[520px]">
         <Content />
-      </div>
+      </main>
     </div>
   );
 }

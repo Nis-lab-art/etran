@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="relative min-h-dvh w-dvw bg-background-2">
       <Header />
-      <main className="ml-[520px]">
+      <main className="ml-0 lg:ml-[520px] pt-10 lg:pt-0">
         <Content />
         <Footer />
       </main>

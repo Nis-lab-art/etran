@@ -20,10 +20,8 @@ import { SmallButton } from "./Button";
 const Content = () => {
   return (
     <main className="flex flex-col w-full">
-      {/* HERO / LOGOS */}
       <section className="min-h-dvh w-full bg-background-2 flex">
         <div className="w-full max-w-6xl mx-auto flex flex-col items-center justify-between px-4 sm:px-6 lg:px-10 py-4 sm:py-6 lg:py-8 gap-8">
-          {/* Image */}
           <div className="w-full shrink-0 rounded-[20px] overflow-hidden max-h-[45vh] md:max-h-[55vh]">
             <img
               src={HeaderImage}
@@ -32,7 +30,6 @@ const Content = () => {
             />
           </div>
 
-          {/* Title */}
           <div className="text-center px-2">
             <h2 className="text-text-1 text-2xl sm:text-3xl lg:text-heading-3 leading-[109%] tracking-tight">
               We escalate transfer efficiency <br aria-hidden="true" />
@@ -40,7 +37,6 @@ const Content = () => {
             </h2>
           </div>
 
-          {/* Logos */}
           <div className="w-full flex justify-center flex-wrap gap-6 sm:gap-10 pt-4 sm:pt-6">
             <img src={Logo1} alt="Logo 1" className="h-5 sm:h-6 w-auto" />
             <img src={Logo2} alt="Logo 2" className="h-5 sm:h-6 w-auto" />
@@ -51,10 +47,8 @@ const Content = () => {
         </div>
       </section>
 
-      {/* PRODUCTIVITY / BENTO GRID */}
       <section id="productivity" className="w-full bg-background-2">
         <div className="w-full max-w-6xl mx-auto flex flex-col items-center px-4 sm:px-6 lg:px-10 py-12 lg:py-20 gap-8">
-          {/* Heading */}
           <div className="flex flex-col justify-center items-center w-full">
             <div className="shrink-0 flex flex-col items-center gap-2.5">
               <div className="text-heading-1 text-heading text-center whitespace-normal lg:whitespace-nowrap">
@@ -70,7 +64,6 @@ const Content = () => {
             </div>
           </div>
 
-          {/* Bento cards */}
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="rounded-3xl bg-accent-1 min-h-[200px] md:h-[220px] flex flex-col items-center justify-center text-center px-4">
               <p className="text-[64px] sm:text-[80px] lg:text-[90px] leading-none font-normal text-heading">
@@ -111,10 +104,8 @@ const Content = () => {
         </div>
       </section>
 
-      {/* MANAGEMENT / TWO CARDS */}
       <section id="management" className="w-full bg-background-2">
         <div className="w-full max-w-6xl mx-auto flex flex-col items-center px-4 sm:px-6 lg:px-10 py-12 lg:py-20 gap-8">
-          {/* Heading */}
           <div className="flex flex-col justify-center items-center w-full">
             <div className="shrink-0 flex flex-col items-center gap-2.5">
               <div className="text-heading-1 text-heading text-center whitespace-normal lg:whitespace-nowrap">
@@ -123,7 +114,6 @@ const Content = () => {
             </div>
           </div>
 
-          {/* Two card grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
             <div className="flex flex-col gap-4">
               <div className="w-full bg-gray-200 rounded-[20px] overflow-hidden">
@@ -166,10 +156,9 @@ const Content = () => {
         </div>
       </section>
 
-      {/* FULL-WIDTH IMAGE SECTION */}
       <section className="w-full bg-background-2">
         <div className="w-full max-w-6xl mx-auto flex flex-col gap-4 px-4 sm:px-6 lg:px-10 py-12 lg:py-[100px]">
-          <div className="w-full h-[240px] sm:h-[280px] md:h-[320px] lg:h-[350px] shrink-0 rounded-[10px] overflow-hidden">
+          <div className="w-full h-60 sm:h-[280px] md:h-80 lg:h-[350px] shrink-0 rounded-[10px] overflow-hidden">
             <img
               src={Person}
               alt="Person interacting with phone"
@@ -179,10 +168,8 @@ const Content = () => {
         </div>
       </section>
 
-      {/* TECHNOLOGY / 4 FEATURES */}
       <section id="technology" className="w-full bg-background-2">
         <div className="w-full max-w-6xl mx-auto flex flex-col items-center px-4 sm:px-6 lg:px-10 py-12 lg:py-20 gap-10">
-          {/* Heading */}
           <div className="flex flex-col justify-center items-center w-full">
             <div className="shrink-0 flex flex-col items-center gap-2.5">
               <div className="text-heading-1 text-heading text-center whitespace-normal lg:whitespace-nowrap">
@@ -198,9 +185,8 @@ const Content = () => {
             </div>
           </div>
 
-          {/* Features grid */}
           <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="flex flex-col gap-[12px] items-center">
+            <div className="flex flex-col gap-3 items-center">
               <div className="w-full rounded-[10px] overflow-hidden">
                 <img
                   src={Wallet}
@@ -212,7 +198,7 @@ const Content = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-[12px] items-center">
+            <div className="flex flex-col gap-3 items-center">
               <div className="w-full rounded-[10px] overflow-hidden">
                 <img
                   src={FingerPrint}
@@ -224,7 +210,7 @@ const Content = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-[12px] items-center">
+            <div className="flex flex-col gap-3 items-center">
               <div className="w-full rounded-[10px] overflow-hidden">
                 <img
                   src={MoneyGraph}
@@ -236,7 +222,7 @@ const Content = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-[12px] items-center">
+            <div className="flex flex-col gap-3 items-center">
               <div className="w-full rounded-[10px] overflow-hidden">
                 <img
                   src={People}
@@ -250,12 +236,9 @@ const Content = () => {
           </div>
         </div>
       </section>
-
-      {/* CTA / DOWNLOAD CARD */}
       <section className="w-full bg-background-2 flex justify-center">
         <div className="w-full max-w-6xl mx-auto flex flex-col px-4 sm:px-6 lg:px-10 pt-10 lg:pt-[50px] pb-16 lg:pb-[100px] gap-4">
           <div className="relative w-full h-[260px] sm:h-[300px] md:h-[350px] rounded-[10px] shrink-0">
-            {/* Background image + overlay */}
             <div className="absolute inset-0 rounded-[10px] overflow-hidden">
               <img
                 src={WomenHoldingPhone}
@@ -265,8 +248,7 @@ const Content = () => {
               <div className="absolute inset-0 bg-black/30" />
             </div>
 
-            {/* Text + button */}
-            <div className="relative inset-0 flex flex-col justify-end items-start gap-3 pt-[40px] sm:pt-[50px] px-6 sm:px-8 lg:px-10 pb-[28px] sm:pb-[34px]">
+            <div className="relative inset-0 flex flex-col justify-end items-start gap-3 pt-10 sm:pt-[50px] px-6 sm:px-8 lg:px-10 pb-[28px] sm:pb-[34px]">
               <div className="relative shrink-0 flex flex-col items-start gap-3 w-full sm:w-[310px]">
                 <h2 className="text-2xl sm:text-3xl lg:text-heading-2 text-background-2 leading-tight">
                   Download Etran and

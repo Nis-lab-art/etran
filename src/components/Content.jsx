@@ -47,7 +47,7 @@ const Content = () => {
         </div>
       </section>
 
-      <section className="w-full bg-background-2 flex">
+      <section id="productivity" className="w-full bg-background-2 flex">
         <div className="w-full flex flex-col items-center justify-between px-10 py-8">
           <div className="flex flex-col justify-center items-center gap-[30px] py-20 px-10 w-full">
             <div className="shrink-0 flex flex-col items-center gap-2.5 p-0">
@@ -105,7 +105,7 @@ const Content = () => {
         </div>
       </section>
 
-      <section className="w-full bg-background-2 flex">
+      <section id="management" className="w-full bg-background-2 flex">
         <div className="w-full flex flex-col items-center justify-between px-10 py-20 gap-[30px]">
           <div className="flex flex-col justify-center items-center w-full">
             <div className="shrink-0 flex flex-col items-center gap-2.5 p-0">
@@ -168,7 +168,7 @@ const Content = () => {
         </div>
       </section>
 
-      <section className="w-full bg-background-2 flex">
+      <section id="technology" className="w-full bg-background-2 flex">
         <div className="w-full flex flex-col items-center justify-between px-10 py-8">
           <div className="flex flex-col justify-center items-center gap-[30px] py-20 px-10 w-full">
             <div className="shrink-0 flex flex-col items-center gap-2.5 p-0">

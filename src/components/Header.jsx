@@ -58,16 +58,19 @@ const Header = () => {
             topText="Instant"
             bottomText="Productivity"
             icon={Bolt}
+            targetId="productivity"
           />
           <LargetButton
             topText="Expense"
             bottomText="Management"
             icon={Globe}
+            targetId="management"
           />
           <LargetButton
             topText="Advanced"
             bottomText="Technology"
             icon={Shield}
+            targetId="technology"
           />
         </div>
       </section>

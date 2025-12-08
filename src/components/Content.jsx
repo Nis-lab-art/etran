@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderImage from "../assets/images/header-image.jpg";
+import HeaderImage from "../assets/images/Header-image.jpg";
 import Logo1 from "../assets/icons/logo-1.svg";
 import Logo2 from "../assets/icons/logo-2.svg";
 import Logo3 from "../assets/icons/logo-3.svg";

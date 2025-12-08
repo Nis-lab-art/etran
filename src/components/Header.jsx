@@ -25,7 +25,7 @@ const Header = () => {
           </p>
         </div>
         <a
-          href="#"
+          href="https://www.figma.com/sites/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex justify-center items-center gap-2.5"

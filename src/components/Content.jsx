@@ -248,7 +248,7 @@ const Content = () => {
               <div className="absolute inset-0 bg-black/30" />
             </div>
 
-            <div className="relative inset-0 flex flex-col justify-end items-start gap-3 pt-10 sm:pt-[50px] px-6 sm:px-8 lg:px-10 pb-[28px] sm:pb-[34px]">
+            <div className="relative inset-0 flex flex-col justify-end items-start gap-3 pt-10 sm:pt-[50px] px-6 sm:px-8 lg:px-10 pb-7 sm:pb-[34px]">
               <div className="relative shrink-0 flex flex-col items-start gap-3 w-full sm:w-[310px]">
                 <h2 className="text-2xl sm:text-3xl lg:text-heading-2 text-background-2 leading-tight">
                   Download Etran and

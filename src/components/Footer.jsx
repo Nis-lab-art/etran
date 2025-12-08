@@ -4,47 +4,47 @@ import Etran from "../assets/icons/Etran.svg";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-[300px] relative shrink-0 bg-background-3">
-      <div className="overflow-clip relative size-full">
-        <div className="w-fill h-[300px] flex justify-between items-start relative py-[31px] px-10 box-border">
-          <div className="relative shrink-0 w-[124px] h-full flex flex-col items-start gap-[141px]">
-            <div className="relative block shrink-0">
-              <img src={Logo} alt="Brand Logo" className="w-full h-full" />
+    <footer className="w-full bg-background-3">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-8 lg:py-[31px]">
+        <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between lg:h-[300px]">
+          <div className="flex flex-col items-start gap-6 md:gap-[141px]">
+            <div className="w-[124px]">
+              <img src={Logo} alt="Brand Logo" className="w-full h-auto" />
             </div>
 
-            <div className="relative block shrink-0">
-              <img src={Etran} alt="Brand Name" className="w-fll h-full" />
+            <div className="w-[124px]">
+              <img src={Etran} alt="Brand Name" className="w-full h-auto" />
             </div>
           </div>
 
-          <div className="h-full flex flex-col items-start justify-between p-0">
-            <div className="w-[167px] flex flex-col items-start gap-3 p-0">
-              <div className="wrap-break-word font-medium text-link w-full text-text-2">
+          <div className="flex flex-col justify-between gap-8 md:gap-0">
+            <div className="w-full md:w-[167px] flex flex-col items-start gap-3">
+              <div className="wrap-break-word font-medium text-link text-text-2">
                 <p>Contact</p>
               </div>
 
-              <div className="flex flex-col items-start gap-0.5 p-0 w-full">
-                <div className="font-medium text-link text-text-1 wrap-break-word w-full transition-opacity duration-200 hover:opacity-60">
-                  <p>hello@figma.com</p>
-                </div>
-                <div className="font-medium text-link text-text-1 wrap-break-word w-full transition-opacity duration-200 hover:opacity-60">
-                  <p>Instagram</p>
-                </div>
-                <div className="font-medium text-link text-text-1 wrap-break-word w-full transition-opacity duration-200 hover:opacity-60">
-                  <p>X</p>
-                </div>
-                <div className="font-medium text-link text-text-1 wrap-break-word w-full transition-opacity duration-200 hover:opacity-60">
-                  <p>LinkedIn</p>
-                </div>
+              <div className="flex flex-col items-start gap-1 w-full">
+                <button className="font-medium text-link text-text-1 wrap-break-word w-full transition-opacity duration-200 hover:opacity-60 text-left">
+                  hello@figma.com
+                </button>
+                <button className="font-medium text-link text-text-1 wrap-break-word w-full transition-opacity duration-200 hover:opacity-60 text-left">
+                  Instagram
+                </button>
+                <button className="font-medium text-link text-text-1 wrap-break-word w-full transition-opacity duration-200 hover:opacity-60 text-left">
+                  X
+                </button>
+                <button className="font-medium text-link text-text-1 wrap-break-word w-full transition-opacity duration-200 hover:opacity-60 text-left">
+                  LinkedIn
+                </button>
               </div>
             </div>
 
-            <div className="flex flex-col items-start gap-0.5 p-0 w-full">
-              <div className="wrap-break-word font-medium text-link w-full text-text-2">
-                <p>Terms & Conditions</p>
+            <div className="flex flex-col items-start gap-1">
+              <div className="wrap-break-word font-medium text-link text-text-2">
+                <p>Terms &amp; Conditions</p>
               </div>
 
-              <div className="wrap-break-word font-medium text-link w-full text-text-2">
+              <div className="wrap-break-word font-medium text-link text-text-2">
                 <p>Privacy</p>
               </div>
             </div>
